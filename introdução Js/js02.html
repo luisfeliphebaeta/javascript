@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript_05 - Saidas</title>
+</head>
+<body>
+    <h1>Sídas de 35</h1>
+    <p>Possibilidades de exibir o 35</p>
+    <ul>
+        <li><code>inner.HTML</code></li>
+        <li><code>window.alert</code></li>
+        <li><code>window.alert</code></li>
+    </ul>
+
+    <h2><code>innerHTML</code></h2>
+    <p>O método<co>document.getElementById(id)</co></p>
+
+    <p id="exemplo"></p>
+    <script>
+        document.getElementById("exemplo").innerHTML= 5 + 6;
+    </script>
+
+    <hr>
+
+    <h2><co>Window.alert</co></h2>
+    <p>Caixa de alerta para exibir dados:</p>
+
+    <script>
+        window.alert(7 + 8);
+    </script>
+
+    <hr>
+
+    <h2><code>console.log</code></h2>
+    <p>Para o <code>console.log</code>precisamos do console</p>
+
+    <script>
+        console.log(10 + 30);
+    </script>
+
+    <hr>
+
+    <h2><code>document.write</code></h2>
+    <p>O método<code>document.write</code></p>
+    
+    <script>
+        document.write(30 + 40);
+    </script>
+
+    <h2 style="color: rgb(158, 25, 25);">Importante!!!</h2>
+    <p>O <code>document.write</code> exclui o HTML</p>
+    <p>Utilize apenas para teste</p>
+
+    <button type="button" onclick="document.write(60 + 30)">
+        Não clique!!!
+    </button>
+
+    <hr>
+
+    <h2><code>Window.print()</code></h2>
+    <p>É possivel imprimir o conteudo daquela página</p>
+
+    <button type="button" onclick="window.print()">
+        Imprimir a tela
+    </button>
+</body>
+</html>
